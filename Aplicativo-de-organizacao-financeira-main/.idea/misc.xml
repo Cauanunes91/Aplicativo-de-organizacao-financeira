@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nana/senac-pi/app/src/main/res/layout/activity_add_valor.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/Nana/senac-pi/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Nana/senac-pi/app/src/main/res/layout/activity_minha_carteira.xml" value="0.33" />
+        <entry key="..\:/Users/Nana/senac-pi/app/src/main/res/layout/activity_subtrair_valor.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/Nana/senac-pi/app/src/main/res/layout/add_valor.xml" value="0.25" />
+        <entry key="..\:/Users/Nana/senac-pi/app/src/main/res/layout/content_add_valor.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/Nana/senac-pi/app/src/main/res/layout/fragment_first.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/cauav/Aplicativo-de-organizacao-financeira-main/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.2985" />
+        <entry key="..\:/Users/cauav/Aplicativo-de-organizacao-financeira-main/app/src/main/res/layout/activity_add_valor.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/cauav/Aplicativo-de-organizacao-financeira-main/app/src/main/res/layout/activity_main.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/cauav/Aplicativo-de-organizacao-financeira-main/app/src/main/res/layout/activity_minha_carteira.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/cauav/Aplicativo-de-organizacao-financeira-main/app/src/main/res/layout/activity_subtrair_valor.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/cauav/Aplicativo-de-organizacao-financeira-main/app/src/main/res/layout/activity_tela_add_valor.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/cauav/Aplicativo-de-organizacao-financeira-main/app/src/main/res/layout/add_valor.xml" value="0.2878787878787879" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

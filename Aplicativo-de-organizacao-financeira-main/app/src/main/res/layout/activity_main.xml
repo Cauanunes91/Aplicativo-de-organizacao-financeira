@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8EAE7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#7DC351"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/msg_Principal"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="124dp"
+        android:text="Seja bem vindo , João !"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/foto_Usuario"
+        android:layout_width="81dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+    <ImageView
+        android:id="@+id/barraFixa"
+        android:layout_width="385dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@drawable/iconn" />
+
+
+    <TextView
+        android:id="@+id/msgDividendo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Dividendo da carteira "
+        android:textColor="#232121"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/barraFixa"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:id="@+id/valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="593,26"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <ImageView
+        android:id="@+id/carteira"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305"
+        app:srcCompat="@drawable/ic_baseline_account_balance_wallet_24" />
+
+    <ImageView
+        android:id="@+id/visibility"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        app:srcCompat="@drawable/ic_baseline_visibility_off_24" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="376dp"
+        android:layout_height="114dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/propaganda1"
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/icon"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="370dp" />
+
+        <ImageView
+            android:id="@+id/propaganda2"
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/icon"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="370dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/addValor"
+
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#EFFBED"
+        android:backgroundTintMode="src_over"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:shadowColor="#FFFFFF"
+        android:text="Adicionar valor "
+        android:textAlignment="textStart"
+        android:textColorHint="#8F5555"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/saldo"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#EFFBED"
+        android:backgroundTintMode="src_over"
+        android:shadowColor="#FFFFFF"
+        android:text="Saldo "
+        android:textAlignment="textStart"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addValor"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/DiminuirValor"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#EFFBED"
+        android:backgroundTintMode="src_over"
+        android:shadowColor="#FFFFFF"
+        android:text="Diminuir Valor "
+        android:textAlignment="textStart"
+        android:textColorHint="#8F5555"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saldo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998">
+
+        <ImageView
+            android:id="@+id/MinhaCarteira"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="15dp"
+            android:rotation="90"
+            app:srcCompat="@drawable/ic_baseline_compare_arrows_24"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+        <ImageView
+            android:id="@+id/iconAddValor"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="50dp"
+
+            app:srcCompat="@drawable/ic_baseline_attach_money_24"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="642dp" />
+
+        <ImageView
+            android:id="@+id/iconRelatorio"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/relatorio"
+            tools:layout_editor_absoluteX="298dp"
+            tools:layout_editor_absoluteY="678dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
